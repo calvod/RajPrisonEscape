@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="RFViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bBj-f9-3UL"/>
+                        <viewControllerLayoutGuide type="bottom" id="9Cp-3s-pAz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="prison.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="dG0-ql-I5X">
+                                <rect key="frame" x="-1579" y="-873" width="3500" height="2314"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="bane.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="xc2-5H-ggY">
+                                <rect key="frame" x="32" y="54" width="48" height="48"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="bane.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="awf-XA-lHH">
+                                <rect key="frame" x="132" y="54" width="48" height="48"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="bane.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="QwD-dO-uUv">
+                                <rect key="frame" x="234" y="54" width="48" height="48"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="bane.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="z9i-Sy-nzp">
+                                <rect key="frame" x="184" y="123" width="48" height="48"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="bane.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="bce-kG-yw9">
+                                <rect key="frame" x="81" y="121" width="48" height="48"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v4I-H4-acE">
+                                <rect key="frame" x="110" y="259" width="101" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="ESCAPE">
+                                    <color key="titleColor" red="0.89656409438775508" green="0.67927216983538186" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="start" destination="vXZ-lx-hvc" eventType="touchUpInside" id="4A9-DB-ytK"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SCORE" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6cb-XF-0p2">
+                                <rect key="frame" x="135" y="538" width="59" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="bane.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="7Xf-OB-qQ1">
+                                <rect key="frame" x="182" y="10" width="48" height="48"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="bane.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="b30-Im-p5e">
+                                <rect key="frame" x="81" y="4" width="48" height="48"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" image="raj.png" translatesAutoresizingMaskIntoConstraints="NO" id="CLL-rd-oK1">
+                                <rect key="frame" x="132" y="405" width="56" height="62"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="blake" destination="QwD-dO-uUv" id="tkL-5I-u9Q"/>
+                        <outlet property="danny" destination="b30-Im-p5e" id="lCi-o8-tZ4"/>
+                        <outlet property="diego" destination="awf-XA-lHH" id="8mj-zv-sEg"/>
+                        <outlet property="enemy" destination="xc2-5H-ggY" id="VRt-ou-a41"/>
+                        <outlet property="jake" destination="z9i-Sy-nzp" id="Kvj-LL-tdl"/>
+                        <outlet property="kevin" destination="bce-kG-yw9" id="q0x-ko-vWn"/>
+                        <outlet property="nick" destination="7Xf-OB-qQ1" id="eA3-QA-m5D"/>
+                        <outlet property="player" destination="CLL-rd-oK1" id="oxu-Fz-aSI"/>
+                        <outlet property="seconds" destination="6cb-XF-0p2" id="MgU-VC-xaV"/>
+                        <outlet property="startbutton" destination="v4I-H4-acE" id="lYP-hb-p3l"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bane.jpg" width="48" height="48"/>
+        <image name="prison.jpg" width="400" height="560"/>
+        <image name="raj.png" width="162" height="180"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
